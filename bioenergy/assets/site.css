@@ -25,3 +25,17 @@ footer#contact h2{font-size:18px;margin:0 0 12px}footer#contact p{font-size:14px
 .lab-hero h1 .brand-b2{color:#187b62}.lab-hero h1 .brand-innovate{color:#0078ae}
 
 .university-masthead{max-width:930px;margin:0 auto;padding:14px 15px 0;text-align:right}.university-masthead a{font-family:Georgia,"Times New Roman",serif;font-size:22px;font-weight:700;letter-spacing:.2px;color:var(--accent)}@media(max-width:650px){.university-masthead{padding:12px 20px 0}.university-masthead a{font-size:19px}}
+
+/* A restrained scientific identity: organic flow and molecular geometry. */
+.lab-hero{position:relative;isolation:isolate;overflow:hidden;padding:40px 24px 30px;margin:0 0 24px;border-bottom:1px solid var(--line);background:linear-gradient(135deg,rgba(24,123,98,.035),transparent 55%,rgba(0,120,174,.04));border-radius:5px}
+.hero-art{position:absolute;inset:0;width:100%;height:100%;z-index:-1;color:#0078ae;opacity:.09;pointer-events:none}
+.lab-hero h1,.dark .lab-hero h1{font-family:Roboto,Arial,sans-serif;font-size:76px;font-weight:500;letter-spacing:-3px;line-height:1.15;margin:0 0 24px}
+.lab-hero h1 sup{font-size:.43em;position:relative;top:-.12em;vertical-align:super;margin-right:2px}
+.lab-hero h1 .brand-b2{font-weight:700}.lab-hero h1 .brand-innovate{font-weight:300}
+.lab-hero h2{font-size:27px;font-weight:400;line-height:1.4;letter-spacing:-.4px;max-width:740px;margin:0 auto 22px}
+.lab-tagline{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:22px;line-height:1.5;border:0;padding:20px 0 0;margin:0 auto 18px;position:relative}
+.lab-tagline:before{content:"";position:absolute;top:0;left:calc(50% - 30px);width:60px;height:2px;background:linear-gradient(90deg,#187b62,#0078ae)}
+.lab-topics{max-width:760px;margin:0 auto;font-size:14px;line-height:1.9;letter-spacing:.25px;color:var(--muted)}
+.dark .lab-hero{background:linear-gradient(135deg,rgba(24,123,98,.09),transparent 55%,rgba(0,120,174,.1))}.dark .hero-art{opacity:.17}
+@media(max-width:650px){.lab-hero{padding:30px 16px 24px}.lab-hero h1{font-size:55px;letter-spacing:-2px;margin-bottom:20px}.lab-hero h2{font-size:22px}.lab-tagline{font-size:20px}.lab-topics{font-size:14px}}
+@media(max-width:380px){.lab-hero h1{font-size:46px}.lab-hero h2{font-size:20px}}
