@@ -23,3 +23,5 @@ footer#contact h2{font-size:18px;margin:0 0 12px}footer#contact p{font-size:14px
 .lab-hero h1,.dark .lab-hero h1{color:#0078ae;font-size:64px;letter-spacing:-1px}@media(max-width:650px){.lab-hero h1{font-size:42px}}@media(max-width:380px){.lab-hero h1{font-size:36px}}
 
 .lab-hero h1 .brand-b2{color:#187b62}.lab-hero h1 .brand-innovate{color:#0078ae}
+
+.university-masthead{max-width:930px;margin:0 auto;padding:14px 15px 0;text-align:right}.university-masthead a{font-family:Georgia,"Times New Roman",serif;font-size:22px;font-weight:700;letter-spacing:.2px;color:var(--accent)}@media(max-width:650px){.university-masthead{padding:12px 20px 0}.university-masthead a{font-size:19px}}
